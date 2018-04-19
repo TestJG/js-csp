@@ -13,8 +13,6 @@ npm-debug.log
 node_modules
 .idea
 .tern-port
-lib
 es
 build
-dist
 coverage
