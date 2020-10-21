@@ -13,7 +13,7 @@ export function queueDispatcher(): void {
   if (!(queued && running)) {
     queued = true;
 
-    setImmediate(() => {
+    setTimeout(() => {
       let count: number = 0;
 
       running = true;

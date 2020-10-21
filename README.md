@@ -1,3 +1,5 @@
+_**Disclaimer: This fork uses setTimeout instead of setImmediate as it is meant to be used in Nativescript, and setImmediate does not exist in Nativescript.**_
+
 [![Build Status](https://travis-ci.org/ubolonton/js-csp.svg?branch=master)](https://travis-ci.org/ubolonton/js-csp)
 [![codecov](https://codecov.io/gh/ubolonton/js-csp/branch/master/graph/badge.svg)](https://codecov.io/gh/ubolonton/js-csp)
 [![Dependency Status](https://david-dm.org/ubolonton/js-csp.svg)](https://david-dm.org/ubolonton/js-csp)

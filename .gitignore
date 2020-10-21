@@ -16,3 +16,4 @@ node_modules
 es
 build
 coverage
+.DS_Store

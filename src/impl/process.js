@@ -84,7 +84,7 @@ export class Process {
   }
 
   schedule = (nextState: mixed): void => {
-    setImmediate(() => this.run(nextState));
+    setTimeout(() => this.run(nextState));
   };
 
   run(state: mixed): void {
